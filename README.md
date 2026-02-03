@@ -37,15 +37,19 @@ Developed for **Selam Analytics**, this system tracks and forecasts Ethiopia's d
 ### 1. Setup Environment
 ```bash
 python -m venv .venv
-.venv\Scripts\activate  # Windows
-source .venv/bin/activate  # Mac/Linux
+# Windows:
+.venv\Scripts\activate  
+# Mac/Linux:
+source .venv/bin/activate  
+
 pip install -r requirements.txt
 2. Launch Interactive Dashboard
 To view the forecasts and impact modeling in your browser, run:
 code
 Bash
 streamlit run dashboard/app.py
-🛠️ Tech Stack
+
+'''  🛠️ Tech Stack
 Analysis: Pandas, NumPy, SciPy
 Visualization: Matplotlib, Seaborn, Plotly
 Deployment: Streamlit
