@@ -52,7 +52,7 @@ pip install -r requirements.txt
 streamlit run dashboard/app.py
 ``` 
 ## 🛠️ Tech Stack
-Analysis: Pandas, NumPy, SciPy
-Visualization: Matplotlib, Seaborn, Plotly
-Deployment: Streamlit
-Version Control: Git/GitHub (Branch-based workflow)
+1. Analysis: Pandas, NumPy, SciPy
+2. Visualization: Matplotlib, Seaborn, Plotly
+3. Deployment: Streamlit
+4. Version Control: Git/GitHub (Branch-based workflow)
