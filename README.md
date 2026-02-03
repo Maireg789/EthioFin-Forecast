@@ -35,10 +35,11 @@ Developed for **Selam Analytics**, this system tracks and forecasts Ethiopia's d
 
 The reason it looks like that is because you opened a code block with ```bash but never closed it with ```. This makes GitHub think the whole rest of the file is part of the code.
 Copy and paste this exactly as it is below. I have fixed all the missing symbols and removed the "code Bash" text that was causing the error.
-🚀 How to Run
-1. Setup Environment
-code
-Bash
+
+## 🚀 How to Run
+
+### 1. Setup Environment
+```bash
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate  
@@ -46,16 +47,12 @@ python -m venv .venv
 source .venv/bin/activate  
 
 pip install -r requirements.txt
-2. Launch Interactive Dashboard
-To view the forecasts and impact modeling in your browser, run:
-code
-Bash
+```  Launch Interactive Dashboard
+```Bash
 streamlit run dashboard/app.py
-🛠️ Tech Stack
+``` 
+## 🛠️ Tech Stack
 Analysis: Pandas, NumPy, SciPy
 Visualization: Matplotlib, Seaborn, Plotly
 Deployment: Streamlit
 Version Control: Git/GitHub (Branch-based workflow)
-Author: Maireg
-Organization: Selam Analytics (10 Academy Project)
-
